@@ -1,0 +1,16 @@
+﻿GET http://localhost:5018/users
+
+###
+
+POST http://localhost:5018/users?nome=isaac
+
+###
+
+PUT http://localhost:5018/users?id=1
+
+###
+
+DELETE http://localhost:5018/users/1
+
+###
+
