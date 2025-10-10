@@ -38,3 +38,8 @@ C:\Users\isaac\CSharp\Web_APIs\Minimal_API_futball\bin\Debug\net9.0\Pomelo.Entit
 C:\Users\isaac\CSharp\Web_APIs\Minimal_API_futball\bin\Debug\net9.0\System.CodeDom.dll
 C:\Users\isaac\CSharp\Web_APIs\Minimal_API_futball\obj\Debug\net9.0\Minimal_API_futball.csproj.AssemblyReference.cache
 C:\Users\isaac\CSharp\Web_APIs\Minimal_API_futball\obj\Debug\net9.0\Minimal_.6C260E86.Up2Date
+C:\Users\isaac\CSharp\Web_APIs\Minimal_API_futball\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\isaac\CSharp\Web_APIs\Minimal_API_futball\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\isaac\CSharp\Web_APIs\Minimal_API_futball\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\isaac\CSharp\Web_APIs\Minimal_API_futball\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\isaac\CSharp\Web_APIs\Minimal_API_futball\obj\Debug\net9.0\Minimal_API_futball.MvcApplicationPartsAssemblyInfo.cs
