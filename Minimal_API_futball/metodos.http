@@ -1,16 +1,38 @@
-﻿GET http://localhost:5018/users
+﻿GET http://localhost:5018/times
 
 ###
 
-POST http://localhost:5018/users?nome=isaac
+GET http://localhost:5018/times/2
+
+### 
+
+
+
+POST http://localhost:5018/times
+Content-Type: application/json
+
+{
+ "Nome":"Real madrid",
+ "Cidade":"Madrid",
+ "Titulos":"10"
+}
+
 
 ###
 
-PUT http://localhost:5018/users?id=1
+PUT http://localhost:5018/times/2
+Content-Type: application/json
+
+{
+  "Nome":"barcelona",
+  "Cidade":"catanlunha",
+  "Titulos":"50"
+}
 
 ###
 
-DELETE http://localhost:5018/users/1
+DELETE http://localhost:5018/times/2
 
 ###
 
+PATCH http://localhost:5018/times/2
