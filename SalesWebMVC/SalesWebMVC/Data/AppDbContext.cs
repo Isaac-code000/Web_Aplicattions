@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using SalesWebMVC.Models;
 
 namespace SalesWebMVC.Data;
 
@@ -9,5 +10,7 @@ public class AppDbContext : DbContext
     {
         
     }
+    
+    DbSet<Department> BdDepartment => Set<Department>();
     
 }
