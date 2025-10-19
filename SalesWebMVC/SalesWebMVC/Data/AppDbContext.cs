@@ -1,16 +1,14 @@
-﻿using Microsoft.EntityFrameworkCore;
-using SalesWebMVC.Models;
+using Microsoft.EntityFrameworkCore;
+using SalesWebMvc.Models;
 
-namespace SalesWebMVC.Data;
+namespace SalesWebMvc.a;
 
 public class AppDbContext : DbContext
 {
-
     public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
     {
         
     }
     
-    DbSet<Department> BdDepartment => Set<Department>();
-    
+    DbSet<Department> Departments => Set<Department>();
 }
